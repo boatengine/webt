@@ -4,7 +4,7 @@ import { FiShoppingCart, FiSearch, FiUser } from "react-icons/fi";
 export default function Navbar() {
   return (
     <>
-      <nav class="bg-white border-gray-200 dark:bg-gray-900 ">
+      <nav class="bg-white border-gray-200">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8">
           <a
             href="https://flowbite.com/"
