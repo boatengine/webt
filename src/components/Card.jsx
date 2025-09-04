@@ -5,7 +5,7 @@ import { FiShoppingCart, FiSearch, FiUser } from "react-icons/fi";
 export default function Card() {
   return (
     <div>
-      <div class="max-w-sm bg-white rounded-xs m-2dark:bg-gray-800 dark:border-gray-700 object-cover">
+      <div class="max-w-sm bg-white rounded-xs m-2dark:bg-gray-800 dark:border-gray-700 object-cover hover:scale-103 hover:shadow-2xl hover:rounded-xl p-[20px] transition-all duration-500 hover:-translate-y-3">
         <a href="#">
           <img
             class="rounded-lg"
@@ -15,7 +15,7 @@ export default function Card() {
         </a>
         <div class="mt-5">
           <a href="#">
-            <h5 class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white">
+            <h5 class="mb-2 text-2xl tracking-tight text-gray-900 font-semibold">
               Jersey
             </h5>
           </a>
